@@ -5,4 +5,5 @@ core = 7.x
 base theme = clean
 
 stylesheets[all][] = css/clean.typography.css
+stylesheets[all][] = css/clean.layout.css
 

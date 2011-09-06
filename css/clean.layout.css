@@ -1,0 +1,12 @@
+/**
+ * @file
+ * Layout styles.
+ */
+
+/* Collapsible columns layout */
+
+#page {
+  width: 800px;
+  /** margin: 0 auto;**/
+  padding: 10px 0;
+}

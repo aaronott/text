@@ -5,39 +5,6 @@
  */
 
 /**
- * Generate additional classes for nodes.
- *
- * @see clean_preprocess_node()
- */
-function clean_node_classes(&$variables) {
-  /**
-  $node = $variables['node'];
-
-  // Generate classes for the node container.
-  $classes = &$variables['attributes_array']['class'];
-  $classes[] = 'node-type-' . $node->type;
-  if ($variables['page']) {
-    $classes[] = 'node-page' . $node->type;
-  }
-  elseif ($variables['teaser']) {
-    $classes[] = 'node-teaser-' . $node->type;
-  }
-  if ($variables['sticky']) {
-    $classes[] = 'sticky';
-  }
-  if (!$variables['status']) {
-    $classes[] = 'node-unpublished';
-  }
-
-  // Generate classes for the content container.
-  $variables['content_attributes_array']['class'][] = 'node-content';
-  $variables['content_attributes_array']['class'][] = 'clearfix';
-
-  $variables['attributes_array']['id'] = 'node-' . $node->nid;
-  **/
-}
-
-/**
  * Check for stylesheets to be placed at the top of the stack or conditional
  * Internet Explorer styles in the .info file and add them to the $styles
  * variable.
