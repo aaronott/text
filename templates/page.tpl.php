@@ -10,9 +10,6 @@
   <div id="page">
     <div id="header">
       <div class="section clearfix">
-        <?php if ($logo): ?>
-          <?php print render($page['logo']) ?>
-        <?php endif; ?>
 
         <?php if ($site_name || $site_slogan): ?>
           <div id="name-and-slogan">
@@ -48,7 +45,6 @@
                 <?php print render($page['highlighted']); ?>
               </div>
             <?php endif; ?>
-            <a id="main-content"></a>
 
             <?php print render($title_prefix); ?>
             <?php if ($title): ?>
