@@ -30,15 +30,6 @@
       </div>
     </div>
 
-    <?php if ($main_menu || $secondary_menu): ?>
-      <div id="navigation">
-        <div class="section">
-          <?php print render($page['main_menu']); ?>
-          <?php print render($page['secondary_menu']); ?>
-        </div>
-      </div>
-    <?php endif; ?>
-
     <?php if ($breadcrumb): ?>
       <div id="breadcrumb">
         <?php print $breadcrumb; ?>
@@ -49,13 +40,6 @@
 
     <div id="main-wrapper">
       <div id="main" class="clearfix">
-        <?php if ($page['sidebar_first']): ?>
-          <div id="sidebar-first" class="column sidebar">
-            <div class="section">
-              <?php print render($page['sidebar_first']); ?>
-            </div>
-          </div>
-        <?php endif; ?>
 
         <div id="content" class="column">
           <div class="section">
@@ -91,13 +75,6 @@
           </div>
         </div>
 
-        <?php if ($page['sidebar_second']): ?>
-          <div id="sidebar-second" class="column sidebar">
-            <div class="section">
-              <?php print render($page['sidebar_second']); ?>
-            </div>
-          </div>
-        <?php endif; ?>
       </div>
     </div>
 
