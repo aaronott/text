@@ -1,0 +1,6 @@
+name = Text
+description = Text only. Just for fun.
+core = 7.x
+
+base theme = clean
+
