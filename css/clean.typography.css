@@ -1,0 +1,122 @@
+/**
+ * @file
+ * Typography styles.
+ */
+
+/* General */
+
+body,
+input,
+textarea,
+select {
+  font-family: Monaco, "Lucida Console", monospace;
+  line-height: 1.4;
+  font-size: 100%;
+}
+
+
+em, i {
+  font-style: italic;
+}
+
+strong, b,
+label {
+  font-weight: bold;
+}
+
+p {
+  margin-bottom: 1.5em;
+}
+
+a {
+  text-decoration: none;
+}
+
+address {
+  font-style: normal;
+  margin-bottom: 1.5em;
+}
+
+blockquote {
+  margin-bottom: 1.5em;
+  padding-left: 20px;
+  font-style: italic;
+  border-left: 5px solid #E6E6E6;
+}
+
+/* Headings */
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 1em;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+  line-height: 1.1;
+}
+
+/* Lists */
+
+ul, ol,
+.item-list ul {
+  padding-left: 20px;
+  margin-bottom: 1.5em;
+}
+
+ul.inline,
+ul.tabs {
+  padding-left: 0;
+}
+
+ul ul,
+ol ol {
+  margin-bottom: 0;
+}
+
+li,
+.item-list ul li,
+ul.menu li {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+ol li {
+  list-style-type: decimal;
+}
+
+ul li {
+  list-style-type: disc;
+}
+
+ul.vertical-tabs-list li {
+  list-style-type: none;
+}
+
+/* Tables */
+
+table {
+  width: 100%;
+  margin-bottom: 1.5em;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 5px 10px;
+}
+
+thead {
+  background-color: #777;
+  color: #fff;
+}
+
+thead th {
+  border-bottom: none;
+}
+
+/* Code */
+
+code, pre {
+  font-family: Monaco, "Lucida Console", monospace;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  overflow: auto;
+  margin-bottom: 1.5em;
+}
