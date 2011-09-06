@@ -15,10 +15,9 @@
   <?php endif; ?>
   <?php print render($title_suffix); ?>
 -------------------------------------------------------------------------------
+<br />
   <?php if ($display_submitted): ?>
-    <div class="submitted">
       <?php print $submitted; ?>
-    </div>
   <?php endif; ?>
 
   <div<?php print $content_attributes; ?>>
